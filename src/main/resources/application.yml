@@ -1,0 +1,15 @@
+jwt:
+  secret: ec4ee5306c5cb930d36653343c1668ea2e4d7cc77b30c4e487dc73bb8971ec31
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3307/springSecurityJwt?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: root
+    password: 6787
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    open-in-view: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
